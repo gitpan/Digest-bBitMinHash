@@ -25,11 +25,13 @@ no_index:
     - examples
     - author
 requires:
+  Digest::MurmurHash3: 0.01
+  Math::Random::MT: 1.16
   perl: 5.008005
 resources:
   bugtracker: https://github.com/overlast/p5-Digest-bBitMinHash/issues
   homepage: https://github.com/overlast/p5-Digest-bBitMinHash
   repository: git://github.com/overlast/p5-Digest-bBitMinHash.git
-version: 0.0.0_01
+version: 0.0.0_02
 x_contributors:
   - 'Toshinori Sato (@overlast) <overlasting@gmail.com>'
